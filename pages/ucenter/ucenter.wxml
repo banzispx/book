@@ -1,0 +1,20 @@
+
+<view class="profile-info">
+  <image class="avatar" src="{{logged ? userInfo.avatarUrl : '../../static/images/user-unlogin.png'}}"></image>
+  <view class="info">
+    <text>{{logged ? userInfo.nickName :'未登录'}}</text>
+  </view>
+</view>
+
+<view class='connect'>
+  <image src='../../static/images/kefu.png' class='img'></image>
+  <text>联系我们</text>
+</view>
+<view class='advice'>
+  <image src='../../static/images/yijian.png' class='img'></image>
+  <text>意见反馈</text>
+</view>
+<view class=" {{showOrHidden?'show':'hide'}}">
+      <button class='btn' open-type="getUserInfo"  lang="zh_CN" bindgetuserinfo="onGotUserInfo">点击登录</button>
+
+</view>

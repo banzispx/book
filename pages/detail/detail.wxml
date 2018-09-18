@@ -1,0 +1,13 @@
+<!--pages/detail/detail.wxml-->
+<view>
+  <view class='header'><image src='{{detail.src}}' class='image'></image></view>
+  <text class='detail-text'>图书地址:{{detail.address}}</text>
+  <label class='detail-label'>简介</label>
+  <text class="content {{extended ? 'content-auto' : 'content-min'}}">{{detail.book_data}}</text>
+  <block wx:if="{{!extended}}">
+    <view class='content-cover'>
+      <view class='cover'></view>
+      <view class='extend' bindtap='bindExtend'>展开简介</view>
+    </view>
+  </block>
+</view>

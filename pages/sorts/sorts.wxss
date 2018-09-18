@@ -1,0 +1,26 @@
+/* pages/sorts/sorts.wxss */
+.header{
+  display: flex;
+  width: 100%;
+}
+.left{
+  width: 45%;
+  height: 3rpx;
+  background-color: #111111;
+  margin-top: 20rpx;
+}
+.right{
+  width: 45%;
+  height: 3rpx;
+  background-color: #111111;
+  margin-top: 20rpx;
+}
+.content{
+  display: flex;
+  flex-flow: row wrap;
+}
+.img{
+  width: 225rpx;
+  height: 225rpx;
+  margin: 10rpx;
+}

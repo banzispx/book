@@ -1,0 +1,35 @@
+/* pages/category/category.wxss */
+.content{
+  margin: 10rpx 20rpx;
+  height: 264rpx;
+  width: 710rpx;
+}
+.content-image {
+  width: 178rpx;
+  height: 250rpx;
+}
+.content-right{
+  display: absolute;
+  float: right;
+  height: 264rpx;
+  width: 456rpx;
+}
+.content-title{
+  display: block;
+}
+.content-author{
+ display: block;
+}
+.content-profie{
+ display: block;
+}
+.content-stars{
+ display: block;
+}
+.text{
+  font-size: 29rpx;
+  color: #333;
+  display: block;
+  margin: 0px;
+  padding-top:20rpx;
+}

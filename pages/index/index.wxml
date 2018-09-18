@@ -1,0 +1,57 @@
+<!--index.wxml-->
+<!-- autoplay='true' interval='3000' duration='1000' circular='true' -->
+<view>
+  <swiper indicator-dots='true' autoplay='true' interval='3000' duration='1000' circular='true'  style="width:100% height:150px">
+    <block wx:for="{{imgUrls}}" wx:key="index">
+      <!-- <swiper-item style="width:100% height:150px">
+        <image src='{{item}}' style="width:100% height:150px"></image>
+      </swiper-item> -->
+      <swiper-item  style="background:url({{item}});background-repeat: no-repeat;background-size:100% 150px; ">
+    </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class='container'>
+  <view class='popule-text'><text>热门精选</text></view>
+  <view class='section-one'>
+    <view class='content' wx:for="{{iData}}" wx:key="index">
+      <navigator url='/pages/detail/detail?id={{item.ID}}'>
+        <image src='{{item.src}}' class='content-image'></image>
+      </navigator>
+    </view>
+    <view class='more-book'>
+      <navigator url='/pages/more'>
+        <view class='more-text'>更多热门图书</view>
+        <image class='more-icon' src='../../static/images/icon_go_more.png'></image>
+      </navigator>
+    </view>
+  </view>
+  <view class='popule-text'><text>新书速递</text></view>
+  <view class='section-one'>
+    <view class='content' wx:for="{{nData}}" wx:key="index">
+      <navigator url='/pages/detail/detail?id={{item.ID}}'>
+        <image src='{{item.src}}' class='content-image'></image>
+      </navigator>
+    </view>
+    <view class='more-book'>
+      <navigator url='/pages/more'>
+        <view class='more-text'>更多上新图书</view>
+        <image class='more-icon' src='../../static/images/icon_go_more.png'></image>
+      </navigator>
+    </view>
+  </view>
+  <view class='popule-text'><text>阅读经典</text></view>
+  <view class='section-one'>
+    <view class='content' wx:for="{{fData}}" wx:key="index">
+      <navigator url='/pages/detail/detail?id={{item.ID}}'>
+        <image src='{{item.src}}' class='content-image'></image>
+      </navigator>
+    </view>
+    <view class='more-book'>
+      <navigator url='/pages/more'>
+        <view class='more-text'>更多经典图书</view>
+        <image class='more-icon' src='../../static/images/icon_go_more.png'></image>
+      </navigator>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<!--pages/category/category.wxml-->
+  <view class='content' wx:for="{{detail}}" wx:key="index">
+    <navigator url='/pages/detail/detail?id={{item.ID}}'>
+      <image src='{{item.src}}' class='content-image'></image>
+      <view class='content-right'>
+        <text class="content-title text">{{item.name}}</text>
+        <text class="content-author text">作者: {{item.author}}</text>
+        <text class="content-author text">发行日期: {{item.date}}</text>
+        <text class='content-stars text'>评分:{{item.stars/10}}</text>
+        <text class='content-stars text'>图书地址:{{item.address}}</text>
+      </view>
+    </navigator>
+  </view>

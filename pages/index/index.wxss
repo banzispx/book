@@ -1,0 +1,53 @@
+.container{
+  background-color: f4f4f4;
+  font-family: PingFangSC-Light,helvetica,'Heiti SC';
+  margin: 0;
+  padding: 0;
+}
+.popule-text{
+  border-left-width:2px;
+  border-left-style:solid;
+  border-left-color:limegreen;
+  height:50rpx;
+  line-height:50rpx;
+  padding-left:10rpx;
+  padding-right:10rpx;
+  font-size: 33rpx;
+}
+.section-one{
+  width: 100%;
+  display: flex;
+  margin-bottom: 20rpx;
+  flex-direction:row;
+  flex-wrap:wrap;
+  text-align: space-between;
+}
+.content{
+  width: 33.3%;
+  text-align: center;
+  display: table-cell;
+}
+.content-image {
+  height: 337rpx;
+  width: 230rpx;
+}
+.more-book{
+  float:left;
+  background:#fff;
+  margin-bottom:6.25rpx;
+  height: 337rpx;
+  overflow:hidden;
+  text-align:center;
+  font-family:PingFangSC-Light,helvetica,'Heiti SC';
+  font-size:29rpx;
+  color:#333;
+  width: 33.3%;
+}
+.more-book .more-text{
+  margin:75rpx auto 0 auto;
+}
+.more-book .more-icon{
+  margin:60rpx auto 0 auto;
+  width:70rpx;
+  height:70rpx;
+}

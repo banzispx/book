@@ -1,0 +1,14 @@
+<!--pages/sorts/sorts.wxml-->
+<view class='header'>
+  <view class='left'></view>
+  <label class='center'>分类</label>
+  <view class='right'></view>
+
+</view>
+<view class='content'>
+  <button class='img1 img' bindtap='bindwenxue'>文学</button>
+  <button class='img2 img' bindtap='bindliuxing'>流行</button>
+  <button class='img3 img' bindtap='bindwenhua'>生活</button>
+  <button class='img5 img' bindtap='bindscience'>科技</button>
+  <button class='img5 img' bindtap='bindsome'>杂谈</button>
+</view>

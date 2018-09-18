@@ -1,0 +1,23 @@
+/* pages/more/more.wxss */
+.content{
+  width: 100%;
+  display: flex;
+  margin-left: 12rpx;
+  margin-bottom: 8rpx;
+}
+.content-image{
+  height: 337rpx;
+  width: 230rpx;
+}
+.content-right{
+  width: 75%;
+  float: right;
+  padding-left: 45rpx;
+}
+.text{
+  font-size: 29rpx;
+  color: #333;
+  display: block;
+  margin: 0px;
+  padding-top:20rpx;
+}

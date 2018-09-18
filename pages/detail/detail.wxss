@@ -1,0 +1,51 @@
+/* pages/detail/detail.wxss */
+.header{
+  text-align: center;
+}
+.image{
+  width: 250rpx;
+  height: 351rpx;
+}
+.detail-text{
+  display: block;
+}
+.detail-label{
+  display: block;
+  color:#9e9e9e;
+  font-size:24rpx;
+  height:56rpx;
+  line-height:56rpx;
+}
+.content{
+  color: #4a4a4a;
+  font-size: 24rpx;
+  width: 100%;
+  overflow: hidden;
+}
+.content-min{
+  width: 100%;
+  height: 300rpx;
+}
+.content-auto{
+  height: auto;
+}
+.content-cover{
+  display: flex;
+  flex-direction: column; 
+}
+.cover{
+  width: 100%;
+  height: 100rpx;
+  margin-top: -100rpx;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1)); /* Safari 5.1 - 6.0 */
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1)); /* 标准的语法 */
+}
+.extend{
+  padding: 40rpx 30rpx 40rpx 30rpx;
+  align-self: center;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #32cb32;
+  position: relative;
+  padding-right: 20rpx; 
+}
